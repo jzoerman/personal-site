@@ -232,3 +232,18 @@ footer a:focus-visible{outline-color:#b9efd4}
 @media(max-width:850px){footer{align-items:flex-start;flex-direction:column;gap:26px;padding-top:42px;padding-bottom:42px}}
 @media(max-width:700px){.about{padding:32px 26px;margin-bottom:44px}.about:after{opacity:.7}footer{font-size:11px}footer div{gap:10px}footer a{padding:11px 14px}}
 @media(prefers-reduced-motion:reduce){footer a{transition:none}}
+
+/* Faint binary, code, and circuit traces behind the name area. */
+header::before{
+  background-image:
+    url('header-digital.svg'),
+    radial-gradient(ellipse at 85% 0%,#70d4b82e,transparent 55%),
+    linear-gradient(115deg,#ffffff08,transparent 45%,#08292b35);
+  background-size:680px 220px,auto,auto;
+  background-position:left center,center,center;
+  background-repeat:no-repeat;
+}
+@media(min-width:1512px){header::before{background-position:calc((100vw - 1512px)/2) center,center,center}}
+@media(max-width:700px){
+  header::before{background-size:520px 170px,auto,auto;background-position:left top,center,center}
+}
