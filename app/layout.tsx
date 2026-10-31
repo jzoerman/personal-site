@@ -12,7 +12,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const content = await site();
   return active(content)
     ? {
-        title: { default: content.title, template: `%s — ${content.title}` },
+        title: content.title,
         description: content.description,
         icons: active(content.favicon)
           ? { icon: content.favicon.url }

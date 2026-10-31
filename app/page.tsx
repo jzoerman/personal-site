@@ -1,16 +1,14 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { homePage, homeSections, site } from "../lib/content";
+import { homePage, homeSections } from "../lib/content";
 import { active } from "../lib/order";
 import { HomeSection } from "../components/HomeSection";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const [content, identity] = await Promise.all([homePage(), site()]);
+  const content = await homePage();
   return {
     title: {
-      absolute: active(content)
-        ? `${content.pageTitle} — ${active(identity) ? identity.title : "Jeremy Zoerman"}`
-        : "Jeremy Zoerman",
+      absolute: active(content) ? content.pageTitle : "Jeremy Zoerman",
     },
   };
 }

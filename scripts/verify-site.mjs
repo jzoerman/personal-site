@@ -73,11 +73,7 @@ if (buildOnly) {
 
 for (const route of routes) {
   const html = await readPage(route);
-  assert.match(
-    html,
-    /<title>.+Jeremy Zoerman<\/title>/,
-    `${route} needs metadata`,
-  );
+  assert.match(html, /<title>[^<]+<\/title>/, `${route} needs metadata`);
   assert.equal(
     (html.match(/<h1[ >]/g) || []).length,
     1,
