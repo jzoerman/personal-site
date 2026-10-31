@@ -1,0 +1,94 @@
+{
+  "sortKey": 10,
+  "isActive": true,
+  "id": "ai",
+  "pageTitle": "Software in an AI era",
+  "eyebrow": "01 / COMPUTING",
+  "headingLines": [
+    {
+      "sortKey": 10,
+      "isActive": true,
+      "text": "Software in an AI era."
+    }
+  ],
+  "intro": "Exploring how we build, think, and stay curious as software changes.",
+  "card": {
+    "sortKey": 10,
+    "isActive": true,
+    "label": "Software in an AI era",
+    "description": "Exploring how we build, think, and stay curious as software changes.",
+    "category": "01 / COMPUTING",
+    "link": {
+      "sortKey": 10,
+      "isActive": true,
+      "label": "Software in an AI era",
+      "url": "/ai"
+    },
+    "image": {
+      "sortKey": 10,
+      "isActive": true,
+      "url": "/ai-photo.jpg",
+      "alt": "Close-up of syntax-highlighted code on a computer screen"
+    }
+  },
+  "image": {
+    "sortKey": 10,
+    "isActive": true,
+    "url": "/ai-photo.jpg",
+    "alt": "Close-up of syntax-highlighted code on a computer screen"
+  },
+  "backLink": {
+    "sortKey": 10,
+    "isActive": true,
+    "label": "← All interests",
+    "url": "/interests"
+  },
+  "children": [
+    {
+      "sortKey": 10,
+      "isActive": true,
+      "id": "",
+      "heading": "",
+      "text": "Illustrative placeholder content for this personal website mockup.",
+      "isNotice": true
+    },
+    {
+      "sortKey": 20,
+      "isActive": true,
+      "id": "",
+      "heading": "New tools. Better questions.",
+      "text": "",
+      "isNotice": false
+    },
+    {
+      "sortKey": 30,
+      "isActive": true,
+      "id": "",
+      "heading": "",
+      "text": "What stays human when the tools get smarter? This space is an open notebook for questions, small experiments, and discoveries along the way.",
+      "isNotice": false
+    },
+    {
+      "sortKey": 40,
+      "isActive": true,
+      "id": "",
+      "heading": "On the curiosity list",
+      "text": "",
+      "isNotice": false
+    },
+    {
+      "sortKey": 50,
+      "isActive": true,
+      "id": "",
+      "heading": "",
+      "text": "How do AI tools change the way we learn and build? Where does human judgment matter most? What makes the process of creating software satisfying?",
+      "isNotice": false
+    }
+  ],
+  "link": {
+    "sortKey": 10,
+    "isActive": true,
+    "label": "Visit the notebook ↗",
+    "url": "/musings"
+  }
+}

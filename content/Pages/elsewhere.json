@@ -1,0 +1,76 @@
+{
+  "sortKey": 10,
+  "isActive": true,
+  "id": "elsewhere",
+  "pageTitle": "Elsewhere",
+  "eyebrow": "Around the web",
+  "headingLines": [
+    {
+      "sortKey": 10,
+      "isActive": true,
+      "text": "A few other"
+    },
+    {
+      "sortKey": 20,
+      "isActive": true,
+      "text": "places to find me."
+    }
+  ],
+  "intro": "A home for the connections between my personal and professional worlds.",
+  "children": [
+    {
+      "sortKey": 10,
+      "isActive": true,
+      "id": "",
+      "heading": "Say hello",
+      "text": "",
+      "isNotice": false
+    },
+    {
+      "sortKey": 20,
+      "isActive": true,
+      "id": "",
+      "heading": "",
+      "text": "Contact and social links will live here.",
+      "isNotice": false
+    },
+    {
+      "sortKey": 30,
+      "isActive": true,
+      "id": "",
+      "heading": "",
+      "text": "Placeholder · Email and social profiles have not been added yet.",
+      "isNotice": true
+    },
+    {
+      "sortKey": 40,
+      "isActive": true,
+      "id": "professional",
+      "heading": "The professional side",
+      "text": "",
+      "isNotice": false
+    },
+    {
+      "sortKey": 50,
+      "isActive": true,
+      "id": "",
+      "heading": "",
+      "text": "A separate .dev site will focus on experience, case studies, technical writing, and professional projects.",
+      "isNotice": false
+    },
+    {
+      "sortKey": 60,
+      "isActive": true,
+      "id": "",
+      "heading": "",
+      "text": "Coming later · The professional domain is a placeholder.",
+      "isNotice": true
+    }
+  ],
+  "link": {
+    "sortKey": 10,
+    "isActive": true,
+    "label": "Back to this little corner ↗",
+    "url": "/"
+  }
+}

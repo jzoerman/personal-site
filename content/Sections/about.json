@@ -1,0 +1,14 @@
+{
+  "sortKey": 50,
+  "isActive": true,
+  "id": "about",
+  "eyebrow": "A bit of context",
+  "heading": "More than one kind of making.",
+  "text": "This is my personal space for interests, experiments, and reflections. For the résumé, professional projects, and what I do for work, there’s a separate corner of the web.",
+  "link": {
+    "sortKey": 10,
+    "isActive": true,
+    "label": "Find the professional side ↗",
+    "url": "/elsewhere#professional"
+  }
+}

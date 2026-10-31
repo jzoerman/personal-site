@@ -1,0 +1,24 @@
+{
+  "sortKey": 30,
+  "isActive": true,
+  "id": "interests",
+  "eyebrow": "Following the threads",
+  "headingLines": [
+    {
+      "sortKey": 10,
+      "isActive": true,
+      "text": "Different worlds."
+    },
+    {
+      "sortKey": 20,
+      "isActive": true,
+      "text": "Same curiosity."
+    }
+  ],
+  "link": {
+    "sortKey": 10,
+    "isActive": true,
+    "label": "All interests ↗",
+    "url": "/interests"
+  }
+}

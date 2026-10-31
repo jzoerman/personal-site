@@ -1,0 +1,21 @@
+{
+  "sortKey": 10,
+  "isActive": true,
+  "id": "interests",
+  "pageTitle": "Interests",
+  "eyebrow": "Five threads, plenty of possibilities",
+  "headingLines": [
+    {
+      "sortKey": 10,
+      "isActive": true,
+      "text": "Things worth"
+    },
+    {
+      "sortKey": 20,
+      "isActive": true,
+      "text": "getting curious about."
+    }
+  ],
+  "intro": "From new software tools to tiny living systems, with faith woven through everyday life. A collection of interests with plenty of room to evolve.",
+  "notice": "Mockup: topic descriptions are placeholders; photography is illustrative."
+}

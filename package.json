@@ -7,7 +7,9 @@
     "build": "next build --webpack",
     "start": "next start",
     "typecheck": "tsc --noEmit",
-    "verify": "node scripts/verify-site.mjs"
+    "verify": "node scripts/verify-site.mjs",
+    "test": "node --import tsx tests/content.test.ts && node --import tsx tests/render.test.tsx",
+    "content:package": "node --import tsx scripts/package-leafplus.ts"
   },
   "engines": {
     "node": ">=20.9.0"
@@ -22,6 +24,8 @@
     "@types/react": "19.3.0",
     "@types/react-dom": "19.3.0",
     "prettier": "3.9.10",
+    "tsx": "4.23.15",
     "typescript": "7.0.2"
-  }
+  },
+  "type": "module"
 }

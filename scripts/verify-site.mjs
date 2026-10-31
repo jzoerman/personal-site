@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { readFile, access } from "node:fs/promises";
+import { readFile, access, readdir } from "node:fs/promises";
 
 const buildOnly = process.argv.includes("--build");
 const manifest = buildOnly
@@ -7,11 +7,6 @@ const manifest = buildOnly
   : null;
 
 async function readPage(route) {
-  if (buildOnly)
-    return readFile(
-      `.next/server/app/${route === "/" ? "index" : route.slice(1)}.html`,
-      "utf8",
-    );
   const response = await fetch(new URL(route, base));
   assert.equal(response.status, 200, `${route} must render`);
   return response.text();
@@ -34,6 +29,47 @@ const routes = [
   "/elsewhere",
 ];
 const assets = new Set();
+
+if (buildOnly) {
+  const emitted = JSON.parse(
+    await readFile(".next/server/app-paths-manifest.json", "utf8"),
+  );
+  for (const route of [...routes, "/_not-found"]) {
+    const key = route === "/" ? "/page" : `${route}/page`;
+    assert.ok(emitted[key], `${route} must have a compiled route`);
+    await access(`.next/server/${emitted[key]}`);
+    if (route === "/_not-found") continue;
+    const legacy = route === "/" ? "/index.html" : `${route}.html`;
+    const redirect = manifest.redirects.find((item) => item.source === legacy);
+    assert.equal(redirect?.statusCode, 308);
+    assert.equal(redirect.destination, route);
+  }
+  async function inspect(directory) {
+    for (const entry of await readdir(directory, { withFileTypes: true })) {
+      const file = `${directory}/${entry.name}`;
+      if (entry.isDirectory()) {
+        await inspect(file);
+        continue;
+      }
+      if (!file.endsWith(".json")) continue;
+      function collect(value) {
+        if (!value || typeof value !== "object") return;
+        if (typeof value.url === "string" && value.url.startsWith("/")) {
+          const url = new URL(value.url, base);
+          if (!routes.includes(url.pathname)) assets.add(url.pathname);
+        }
+        Object.values(value).forEach(collect);
+      }
+      collect(JSON.parse(await readFile(file, "utf8")));
+    }
+  }
+  await inspect("content");
+  for (const asset of assets) await access(`public${asset}`);
+  console.log(
+    `Verified compiled routes for ${routes.length} pages and 404, legacy redirects, and ${assets.size} bundled content assets. Dynamic HTML is covered by npm test and live HTTP verification.`,
+  );
+  process.exit(0);
+}
 
 for (const route of routes) {
   const html = await readPage(route);
@@ -82,49 +118,18 @@ for (const route of routes) {
     }
   }
   const legacy = route === "/" ? "/index.html" : `${route}.html`;
-  if (buildOnly) {
-    const redirect = manifest.redirects.find(
-      (entry) => entry.source === legacy,
-    );
-    assert.equal(
-      redirect?.statusCode,
-      308,
-      `${legacy} must redirect permanently`,
-    );
-    assert.equal(redirect.destination, route);
-  } else {
-    const redirect = await fetch(new URL(legacy, base), { redirect: "manual" });
-    assert.equal(redirect.status, 308, `${legacy} must redirect permanently`);
-    assert.equal(
-      new URL(redirect.headers.get("location"), base).pathname,
-      route,
-    );
-  }
+  const redirect = await fetch(new URL(legacy, base), { redirect: "manual" });
+  assert.equal(redirect.status, 308, `${legacy} must redirect permanently`);
+  assert.equal(new URL(redirect.headers.get("location"), base).pathname, route);
 }
 for (const asset of assets) {
-  if (buildOnly) {
-    await access(
-      asset.startsWith("/_next/")
-        ? `.next/${asset.slice(7)}`
-        : `public${asset}`,
-    );
-  } else {
-    assert.equal(
-      (await fetch(new URL(asset, base))).status,
-      200,
-      `${asset} must resolve`,
-    );
-  }
-}
-if (buildOnly) {
-  assert.equal(manifest.pages404, true);
-  assert.match(
-    await readFile(".next/server/app/_not-found.html", "utf8"),
-    /This page is/,
+  assert.equal(
+    (await fetch(new URL(asset, base))).status,
+    200,
+    `${asset} must resolve`,
   );
-} else {
-  assert.equal((await fetch(new URL("/missing-page", base))).status, 404);
 }
+assert.equal((await fetch(new URL("/missing-page", base))).status, 404);
 console.log(
-  `Verified ${buildOnly ? "build artifacts for" : "HTTP responses for"} ${routes.length} pages, legacy redirects, ${assets.size} linked assets, active navigation, sample labels, and 404.`,
+  `Verified HTTP responses for ${routes.length} pages, legacy redirects, ${assets.size} linked assets, active navigation, sample labels, and 404.`,
 );

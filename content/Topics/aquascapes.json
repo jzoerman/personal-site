@@ -1,0 +1,94 @@
+{
+  "sortKey": 40,
+  "isActive": true,
+  "id": "aquascapes",
+  "pageTitle": "Small worlds, underwater",
+  "eyebrow": "04 / LIVING SYSTEMS",
+  "headingLines": [
+    {
+      "sortKey": 10,
+      "isActive": true,
+      "text": "Small worlds, underwater."
+    }
+  ],
+  "intro": "Exploring the balance of plants, water, light, and a little patience.",
+  "card": {
+    "sortKey": 10,
+    "isActive": true,
+    "label": "Small worlds, underwater",
+    "description": "Exploring the balance of plants, water, light, and a little patience.",
+    "category": "04 / LIVING SYSTEMS",
+    "link": {
+      "sortKey": 10,
+      "isActive": true,
+      "label": "Small worlds, underwater",
+      "url": "/aquascapes"
+    },
+    "image": {
+      "sortKey": 10,
+      "isActive": true,
+      "url": "/aquascapes-photo.jpg",
+      "alt": "Green aquatic plants and roots inside a planted aquarium"
+    }
+  },
+  "image": {
+    "sortKey": 10,
+    "isActive": true,
+    "url": "/aquascapes-photo.jpg",
+    "alt": "Green aquatic plants and roots inside a planted aquarium"
+  },
+  "backLink": {
+    "sortKey": 10,
+    "isActive": true,
+    "label": "← All interests",
+    "url": "/interests"
+  },
+  "children": [
+    {
+      "sortKey": 10,
+      "isActive": true,
+      "id": "",
+      "heading": "",
+      "text": "Illustrative placeholder content for this personal website mockup.",
+      "isNotice": true
+    },
+    {
+      "sortKey": 20,
+      "isActive": true,
+      "id": "",
+      "heading": "A landscape at a different scale.",
+      "text": "",
+      "isNotice": false
+    },
+    {
+      "sortKey": 30,
+      "isActive": true,
+      "id": "",
+      "heading": "",
+      "text": "Finding a landscape inside a glass box. This space is an open notebook for questions, small experiments, and discoveries along the way.",
+      "isNotice": false
+    },
+    {
+      "sortKey": 40,
+      "isActive": true,
+      "id": "",
+      "heading": "On the curiosity list",
+      "text": "",
+      "isNotice": false
+    },
+    {
+      "sortKey": 50,
+      "isActive": true,
+      "id": "",
+      "heading": "",
+      "text": "How do plants and hardscape shape a sense of scale? What makes an underwater scene feel natural? How does a small world change as it matures?",
+      "isNotice": false
+    }
+  ],
+  "link": {
+    "sortKey": 10,
+    "isActive": true,
+    "label": "Visit the notebook ↗",
+    "url": "/musings"
+  }
+}

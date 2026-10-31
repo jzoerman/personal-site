@@ -1,0 +1,83 @@
+{
+  "sortKey": 50,
+  "isActive": true,
+  "id": "faith",
+  "pageTitle": "Still on the Potter’s Wheel",
+  "eyebrow": "05 / FAITH & GRACE",
+  "headingLines": [
+    {
+      "sortKey": 10,
+      "isActive": true,
+      "text": "Still on the"
+    },
+    {
+      "sortKey": 20,
+      "isActive": true,
+      "text": "Potter’s Wheel"
+    }
+  ],
+  "intro": "A life of faith, still being shaped by grace.",
+  "card": {
+    "sortKey": 10,
+    "isActive": true,
+    "label": "Still on the Potter’s Wheel",
+    "description": "A life of faith, still being shaped by grace.",
+    "category": "05 / FAITH & GRACE",
+    "link": {
+      "sortKey": 10,
+      "isActive": true,
+      "label": "Still on the Potter’s Wheel",
+      "url": "/faith"
+    },
+    "image": {
+      "sortKey": 10,
+      "isActive": true,
+      "url": "/faith-photo.jpg",
+      "alt": "A potter’s hands gently shaping clay on a wheel"
+    }
+  },
+  "image": {
+    "sortKey": 10,
+    "isActive": true,
+    "url": "/faith-photo.jpg",
+    "alt": "A potter’s hands gently shaping clay on a wheel"
+  },
+  "backLink": {
+    "sortKey": 10,
+    "isActive": true,
+    "label": "← All interests",
+    "url": "/interests"
+  },
+  "children": [
+    {
+      "sortKey": 10,
+      "isActive": true,
+      "id": "",
+      "heading": "Still being shaped.",
+      "text": "",
+      "isNotice": false
+    },
+    {
+      "sortKey": 20,
+      "isActive": true,
+      "id": "",
+      "heading": "",
+      "text": "A space for reflections on faith, grace, and the ongoing work of becoming.",
+      "isNotice": false
+    },
+    {
+      "sortKey": 30,
+      "isActive": true,
+      "id": "",
+      "heading": "",
+      "text": "Personal reflections will be added here. This page is a placeholder for the mockup.",
+      "isNotice": true
+    }
+  ],
+  "link": {
+    "sortKey": 10,
+    "isActive": true,
+    "label": "Visit the notebook ↗",
+    "url": "/musings"
+  }
+}

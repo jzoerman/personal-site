@@ -1,0 +1,21 @@
+{
+  "sortKey": 10,
+  "isActive": true,
+  "id": "musings",
+  "pageTitle": "Musings",
+  "eyebrow": "The open notebook",
+  "headingLines": [
+    {
+      "sortKey": 10,
+      "isActive": true,
+      "text": "Thinking out loud."
+    },
+    {
+      "sortKey": 20,
+      "isActive": true,
+      "text": "Leaving room to change."
+    }
+  ],
+  "intro": "Reflections from the intersection of making, growing, and noticing.",
+  "notice": "These sample notes demonstrate the layout. They are not Jeremy’s published writing."
+}

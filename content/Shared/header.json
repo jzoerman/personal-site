@@ -1,0 +1,43 @@
+{
+  "sortKey": 10,
+  "isActive": true,
+  "id": "header",
+  "brand": {
+    "sortKey": 10,
+    "isActive": true,
+    "label": "Jeremy Zoerman",
+    "monogram": "JZ",
+    "url": "/"
+  },
+  "navigation": {
+    "sortKey": 10,
+    "isActive": true,
+    "label": "Main navigation",
+    "children": [
+      {
+        "sortKey": 10,
+        "isActive": true,
+        "label": "Home",
+        "url": "/"
+      },
+      {
+        "sortKey": 20,
+        "isActive": true,
+        "label": "Interests",
+        "url": "/interests"
+      },
+      {
+        "sortKey": 30,
+        "isActive": true,
+        "label": "Musings",
+        "url": "/musings"
+      },
+      {
+        "sortKey": 40,
+        "isActive": true,
+        "label": "Elsewhere ↗",
+        "url": "/elsewhere"
+      }
+    ]
+  }
+}

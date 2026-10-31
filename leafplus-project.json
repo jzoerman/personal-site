@@ -1,0 +1,1178 @@
+{
+  "format": "leafplus-project",
+  "formatVersion": 1,
+  "sourceProject": "JeremyZoerman.com",
+  "exportedAt": "2026-10-31T23:37:28.328Z",
+  "documents": [
+    {
+      "path": "/home",
+      "data": {
+        "sortKey": 10,
+        "isActive": true,
+        "id": "home",
+        "pageTitle": "Home"
+      }
+    },
+    {
+      "path": "/interests",
+      "data": {
+        "sortKey": 10,
+        "isActive": true,
+        "id": "interests",
+        "pageTitle": "Interests",
+        "eyebrow": "Five threads, plenty of possibilities",
+        "headingLines": [
+          {
+            "sortKey": 10,
+            "isActive": true,
+            "text": "Things worth"
+          },
+          {
+            "sortKey": 20,
+            "isActive": true,
+            "text": "getting curious about."
+          }
+        ],
+        "intro": "From new software tools to tiny living systems, with faith woven through everyday life. A collection of interests with plenty of room to evolve.",
+        "notice": "Mockup: topic descriptions are placeholders; photography is illustrative."
+      }
+    },
+    {
+      "path": "/musings",
+      "data": {
+        "sortKey": 10,
+        "isActive": true,
+        "id": "musings",
+        "pageTitle": "Musings",
+        "eyebrow": "The open notebook",
+        "headingLines": [
+          {
+            "sortKey": 10,
+            "isActive": true,
+            "text": "Thinking out loud."
+          },
+          {
+            "sortKey": 20,
+            "isActive": true,
+            "text": "Leaving room to change."
+          }
+        ],
+        "intro": "Reflections from the intersection of making, growing, and noticing.",
+        "notice": "These sample notes demonstrate the layout. They are not Jeremy’s published writing."
+      }
+    },
+    {
+      "path": "/elsewhere",
+      "data": {
+        "sortKey": 10,
+        "isActive": true,
+        "id": "elsewhere",
+        "pageTitle": "Elsewhere",
+        "eyebrow": "Around the web",
+        "headingLines": [
+          {
+            "sortKey": 10,
+            "isActive": true,
+            "text": "A few other"
+          },
+          {
+            "sortKey": 20,
+            "isActive": true,
+            "text": "places to find me."
+          }
+        ],
+        "intro": "A home for the connections between my personal and professional worlds.",
+        "children": [
+          {
+            "sortKey": 10,
+            "isActive": true,
+            "id": "",
+            "heading": "Say hello",
+            "text": "",
+            "isNotice": false
+          },
+          {
+            "sortKey": 20,
+            "isActive": true,
+            "id": "",
+            "heading": "",
+            "text": "Contact and social links will live here.",
+            "isNotice": false
+          },
+          {
+            "sortKey": 30,
+            "isActive": true,
+            "id": "",
+            "heading": "",
+            "text": "Placeholder · Email and social profiles have not been added yet.",
+            "isNotice": true
+          },
+          {
+            "sortKey": 40,
+            "isActive": true,
+            "id": "professional",
+            "heading": "The professional side",
+            "text": "",
+            "isNotice": false
+          },
+          {
+            "sortKey": 50,
+            "isActive": true,
+            "id": "",
+            "heading": "",
+            "text": "A separate .dev site will focus on experience, case studies, technical writing, and professional projects.",
+            "isNotice": false
+          },
+          {
+            "sortKey": 60,
+            "isActive": true,
+            "id": "",
+            "heading": "",
+            "text": "Coming later · The professional domain is a placeholder.",
+            "isNotice": true
+          }
+        ],
+        "link": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "Back to this little corner ↗",
+          "url": "/"
+        }
+      }
+    },
+    {
+      "path": "/not-found",
+      "data": {
+        "sortKey": 10,
+        "isActive": true,
+        "id": "not-found",
+        "pageTitle": "Page not found",
+        "eyebrow": "404 / A loose thread",
+        "headingLines": [
+          {
+            "sortKey": 10,
+            "isActive": true,
+            "text": "This page is"
+          },
+          {
+            "sortKey": 20,
+            "isActive": true,
+            "text": "still unexplored."
+          }
+        ],
+        "intro": "The page you’re looking for could not be found.",
+        "link": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "Back to the personal side ↗",
+          "url": "/"
+        }
+      }
+    },
+    {
+      "path": "/shared/header",
+      "data": {
+        "sortKey": 10,
+        "isActive": true,
+        "id": "header",
+        "brand": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "Jeremy Zoerman",
+          "monogram": "JZ",
+          "url": "/"
+        },
+        "navigation": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "Main navigation",
+          "children": [
+            {
+              "sortKey": 10,
+              "isActive": true,
+              "label": "Home",
+              "url": "/"
+            },
+            {
+              "sortKey": 20,
+              "isActive": true,
+              "label": "Interests",
+              "url": "/interests"
+            },
+            {
+              "sortKey": 30,
+              "isActive": true,
+              "label": "Musings",
+              "url": "/musings"
+            },
+            {
+              "sortKey": 40,
+              "isActive": true,
+              "label": "Elsewhere ↗",
+              "url": "/elsewhere"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "/shared/footer",
+      "data": {
+        "sortKey": 10,
+        "isActive": true,
+        "id": "footer",
+        "copyright": "© 2026 Jeremy Zoerman · A curious work in progress.",
+        "children": [
+          {
+            "sortKey": 10,
+            "isActive": true,
+            "label": "Say hello ↗",
+            "url": "/elsewhere"
+          },
+          {
+            "sortKey": 20,
+            "isActive": true,
+            "label": "The professional side ↗",
+            "url": "/elsewhere#professional"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/shared/site",
+      "data": {
+        "sortKey": 10,
+        "isActive": true,
+        "id": "site",
+        "title": "Jeremy Zoerman",
+        "description": "Jeremy Zoerman’s personal corner of the web: software in the AI era, DIY solar, hydroponics, aquascapes, faith, and musings.",
+        "skipLabel": "Skip to content",
+        "favicon": {
+          "sortKey": 10,
+          "isActive": true,
+          "url": "/favicon.svg",
+          "alt": "JZ"
+        }
+      }
+    },
+    {
+      "path": "/home/hero",
+      "data": {
+        "sortKey": 10,
+        "isActive": true,
+        "id": "hero",
+        "eyebrow": "THE PERSONAL SIDE / JEREMY ZOERMAN",
+        "headingLines": [
+          {
+            "sortKey": 10,
+            "isActive": true,
+            "text": "Good questions."
+          },
+          {
+            "sortKey": 20,
+            "isActive": true,
+            "text": "Interesting"
+          },
+          {
+            "sortKey": 30,
+            "isActive": true,
+            "text": "possibilities."
+          }
+        ],
+        "intro": "A personal space for the things that spark my curiosity. Software, sunlight, growing systems, a life of faith, and the occasional thought worth following.",
+        "primaryLink": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "Follow the curiosity ↗",
+          "url": "/interests"
+        },
+        "secondaryLink": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "Open the notebook →",
+          "url": "/musings"
+        },
+        "status": "ALWAYS A WORK IN PROGRESS",
+        "orbital": {
+          "sortKey": 10,
+          "isActive": true,
+          "image": {
+            "sortKey": 10,
+            "isActive": true,
+            "url": "/orbit.svg",
+            "alt": "Wireframe globe with intersecting orbits, representing connected interests"
+          },
+          "topLabels": [
+            {
+              "sortKey": 10,
+              "isActive": true,
+              "text": "JZ / EXPLORATIONS"
+            },
+            {
+              "sortKey": 20,
+              "isActive": true,
+              "text": "PERSONAL SYSTEMS — 01"
+            }
+          ],
+          "bottomLabels": [
+            {
+              "sortKey": 10,
+              "isActive": true,
+              "text": "+ IDEAS → POSSIBILITIES"
+            },
+            {
+              "sortKey": 20,
+              "isActive": true,
+              "text": "∞ / STILL EXPLORING"
+            }
+          ],
+          "children": [
+            {
+              "sortKey": 10,
+              "isActive": true,
+              "text": "01 / SOFTWARE & AI"
+            },
+            {
+              "sortKey": 20,
+              "isActive": true,
+              "text": "02 / DIY SOLAR"
+            },
+            {
+              "sortKey": 30,
+              "isActive": true,
+              "text": "03 / HYDROPONICS"
+            },
+            {
+              "sortKey": 40,
+              "isActive": true,
+              "text": "04 / AQUASCAPES"
+            },
+            {
+              "sortKey": 50,
+              "isActive": true,
+              "text": "05 / FAITH & GRACE"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "/home/topic-strip",
+      "data": {
+        "sortKey": 20,
+        "isActive": true,
+        "id": "topic-strip",
+        "children": [
+          {
+            "sortKey": 10,
+            "isActive": true,
+            "text": "A FEW CONNECTED INTERESTS"
+          },
+          {
+            "sortKey": 20,
+            "isActive": true,
+            "text": "CODE / ENERGY / GROWING / SMALL WORLDS / FAITH"
+          },
+          {
+            "sortKey": 30,
+            "isActive": true,
+            "text": "SCROLL TO EXPLORE ↓"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/home/interests",
+      "data": {
+        "sortKey": 30,
+        "isActive": true,
+        "id": "interests",
+        "eyebrow": "Following the threads",
+        "headingLines": [
+          {
+            "sortKey": 10,
+            "isActive": true,
+            "text": "Different worlds."
+          },
+          {
+            "sortKey": 20,
+            "isActive": true,
+            "text": "Same curiosity."
+          }
+        ],
+        "link": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "All interests ↗",
+          "url": "/interests"
+        }
+      }
+    },
+    {
+      "path": "/home/notebook",
+      "data": {
+        "sortKey": 40,
+        "isActive": true,
+        "id": "notebook",
+        "eyebrow": "The open notebook",
+        "heading": "A few musings.",
+        "intro": "Ideas in progress. Things noticed.\nQuestions worth sitting with.",
+        "link": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "Browse the notebook ↗",
+          "url": "/musings"
+        }
+      }
+    },
+    {
+      "path": "/home/about",
+      "data": {
+        "sortKey": 50,
+        "isActive": true,
+        "id": "about",
+        "eyebrow": "A bit of context",
+        "heading": "More than one kind of making.",
+        "text": "This is my personal space for interests, experiments, and reflections. For the résumé, professional projects, and what I do for work, there’s a separate corner of the web.",
+        "link": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "Find the professional side ↗",
+          "url": "/elsewhere#professional"
+        }
+      }
+    },
+    {
+      "path": "/topics/ai",
+      "data": {
+        "sortKey": 10,
+        "isActive": true,
+        "id": "ai",
+        "pageTitle": "Software in an AI era",
+        "eyebrow": "01 / COMPUTING",
+        "headingLines": [
+          {
+            "sortKey": 10,
+            "isActive": true,
+            "text": "Software in an AI era."
+          }
+        ],
+        "intro": "Exploring how we build, think, and stay curious as software changes.",
+        "card": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "Software in an AI era",
+          "description": "Exploring how we build, think, and stay curious as software changes.",
+          "category": "01 / COMPUTING",
+          "link": {
+            "sortKey": 10,
+            "isActive": true,
+            "label": "Software in an AI era",
+            "url": "/ai"
+          },
+          "image": {
+            "sortKey": 10,
+            "isActive": true,
+            "url": "/ai-photo.jpg",
+            "alt": "Close-up of syntax-highlighted code on a computer screen"
+          }
+        },
+        "image": {
+          "sortKey": 10,
+          "isActive": true,
+          "url": "/ai-photo.jpg",
+          "alt": "Close-up of syntax-highlighted code on a computer screen"
+        },
+        "backLink": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "← All interests",
+          "url": "/interests"
+        },
+        "children": [
+          {
+            "sortKey": 10,
+            "isActive": true,
+            "id": "",
+            "heading": "",
+            "text": "Illustrative placeholder content for this personal website mockup.",
+            "isNotice": true
+          },
+          {
+            "sortKey": 20,
+            "isActive": true,
+            "id": "",
+            "heading": "New tools. Better questions.",
+            "text": "",
+            "isNotice": false
+          },
+          {
+            "sortKey": 30,
+            "isActive": true,
+            "id": "",
+            "heading": "",
+            "text": "What stays human when the tools get smarter? This space is an open notebook for questions, small experiments, and discoveries along the way.",
+            "isNotice": false
+          },
+          {
+            "sortKey": 40,
+            "isActive": true,
+            "id": "",
+            "heading": "On the curiosity list",
+            "text": "",
+            "isNotice": false
+          },
+          {
+            "sortKey": 50,
+            "isActive": true,
+            "id": "",
+            "heading": "",
+            "text": "How do AI tools change the way we learn and build? Where does human judgment matter most? What makes the process of creating software satisfying?",
+            "isNotice": false
+          }
+        ],
+        "link": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "Visit the notebook ↗",
+          "url": "/musings"
+        }
+      }
+    },
+    {
+      "path": "/topics/solar",
+      "data": {
+        "sortKey": 20,
+        "isActive": true,
+        "id": "solar",
+        "pageTitle": "A little more sun-powered",
+        "eyebrow": "02 / ENERGY",
+        "headingLines": [
+          {
+            "sortKey": 10,
+            "isActive": true,
+            "text": "A little more sun-powered."
+          }
+        ],
+        "intro": "An open notebook for DIY solar, small systems, and learning by making.",
+        "card": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "A little more sun-powered",
+          "description": "An open notebook for DIY solar, small systems, and learning by making.",
+          "category": "02 / ENERGY",
+          "link": {
+            "sortKey": 10,
+            "isActive": true,
+            "label": "A little more sun-powered",
+            "url": "/solar"
+          },
+          "image": {
+            "sortKey": 10,
+            "isActive": true,
+            "url": "/solar-photo.jpg",
+            "alt": "Rows of blue solar panels beneath a cloud-filled sky"
+          }
+        },
+        "image": {
+          "sortKey": 10,
+          "isActive": true,
+          "url": "/solar-photo.jpg",
+          "alt": "Rows of blue solar panels beneath a cloud-filled sky"
+        },
+        "backLink": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "← All interests",
+          "url": "/interests"
+        },
+        "children": [
+          {
+            "sortKey": 10,
+            "isActive": true,
+            "id": "",
+            "heading": "",
+            "text": "Illustrative placeholder content for this personal website mockup.",
+            "isNotice": true
+          },
+          {
+            "sortKey": 20,
+            "isActive": true,
+            "id": "",
+            "heading": "From sunlight to something useful.",
+            "text": "",
+            "isNotice": false
+          },
+          {
+            "sortKey": 30,
+            "isActive": true,
+            "id": "",
+            "heading": "",
+            "text": "Start small. Follow the sunlight. This space is an open notebook for questions, small experiments, and discoveries along the way.",
+            "isNotice": false
+          },
+          {
+            "sortKey": 40,
+            "isActive": true,
+            "id": "",
+            "heading": "On the curiosity list",
+            "text": "",
+            "isNotice": false
+          },
+          {
+            "sortKey": 50,
+            "isActive": true,
+            "id": "",
+            "heading": "",
+            "text": "What could a modest solar setup power? How can a system be easier to understand? What can be learned by measuring sunlight and energy over time?",
+            "isNotice": false
+          }
+        ],
+        "link": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "Visit the notebook ↗",
+          "url": "/musings"
+        }
+      }
+    },
+    {
+      "path": "/topics/hydroponics",
+      "data": {
+        "sortKey": 30,
+        "isActive": true,
+        "id": "hydroponics",
+        "pageTitle": "Roots, water, repeat",
+        "eyebrow": "03 / GROWING",
+        "headingLines": [
+          {
+            "sortKey": 10,
+            "isActive": true,
+            "text": "Roots, water, repeat."
+          }
+        ],
+        "intro": "A space for hydroponic experiments and the quiet satisfaction of watching things grow.",
+        "card": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "Roots, water, repeat",
+          "description": "A space for hydroponic experiments and the quiet satisfaction of watching things grow.",
+          "category": "03 / GROWING",
+          "link": {
+            "sortKey": 10,
+            "isActive": true,
+            "label": "Roots, water, repeat",
+            "url": "/hydroponics"
+          },
+          "image": {
+            "sortKey": 10,
+            "isActive": true,
+            "url": "/hydroponics-photo.jpg",
+            "alt": "Bright green lettuce growing in white hydroponic channels"
+          }
+        },
+        "image": {
+          "sortKey": 10,
+          "isActive": true,
+          "url": "/hydroponics-photo.jpg",
+          "alt": "Bright green lettuce growing in white hydroponic channels"
+        },
+        "backLink": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "← All interests",
+          "url": "/interests"
+        },
+        "children": [
+          {
+            "sortKey": 10,
+            "isActive": true,
+            "id": "",
+            "heading": "",
+            "text": "Illustrative placeholder content for this personal website mockup.",
+            "isNotice": true
+          },
+          {
+            "sortKey": 20,
+            "isActive": true,
+            "id": "",
+            "heading": "Growing things. Learning things.",
+            "text": "",
+            "isNotice": false
+          },
+          {
+            "sortKey": 30,
+            "isActive": true,
+            "id": "",
+            "heading": "",
+            "text": "A tiny garden with a lot to teach. This space is an open notebook for questions, small experiments, and discoveries along the way.",
+            "isNotice": false
+          },
+          {
+            "sortKey": 40,
+            "isActive": true,
+            "id": "",
+            "heading": "On the curiosity list",
+            "text": "",
+            "isNotice": false
+          },
+          {
+            "sortKey": 50,
+            "isActive": true,
+            "id": "",
+            "heading": "",
+            "text": "How do light, water, and nutrients shape a growing system? What changes when you observe a plant closely? Where is the balance between tinkering and letting things grow?",
+            "isNotice": false
+          }
+        ],
+        "link": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "Visit the notebook ↗",
+          "url": "/musings"
+        }
+      }
+    },
+    {
+      "path": "/topics/aquascapes",
+      "data": {
+        "sortKey": 40,
+        "isActive": true,
+        "id": "aquascapes",
+        "pageTitle": "Small worlds, underwater",
+        "eyebrow": "04 / LIVING SYSTEMS",
+        "headingLines": [
+          {
+            "sortKey": 10,
+            "isActive": true,
+            "text": "Small worlds, underwater."
+          }
+        ],
+        "intro": "Exploring the balance of plants, water, light, and a little patience.",
+        "card": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "Small worlds, underwater",
+          "description": "Exploring the balance of plants, water, light, and a little patience.",
+          "category": "04 / LIVING SYSTEMS",
+          "link": {
+            "sortKey": 10,
+            "isActive": true,
+            "label": "Small worlds, underwater",
+            "url": "/aquascapes"
+          },
+          "image": {
+            "sortKey": 10,
+            "isActive": true,
+            "url": "/aquascapes-photo.jpg",
+            "alt": "Green aquatic plants and roots inside a planted aquarium"
+          }
+        },
+        "image": {
+          "sortKey": 10,
+          "isActive": true,
+          "url": "/aquascapes-photo.jpg",
+          "alt": "Green aquatic plants and roots inside a planted aquarium"
+        },
+        "backLink": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "← All interests",
+          "url": "/interests"
+        },
+        "children": [
+          {
+            "sortKey": 10,
+            "isActive": true,
+            "id": "",
+            "heading": "",
+            "text": "Illustrative placeholder content for this personal website mockup.",
+            "isNotice": true
+          },
+          {
+            "sortKey": 20,
+            "isActive": true,
+            "id": "",
+            "heading": "A landscape at a different scale.",
+            "text": "",
+            "isNotice": false
+          },
+          {
+            "sortKey": 30,
+            "isActive": true,
+            "id": "",
+            "heading": "",
+            "text": "Finding a landscape inside a glass box. This space is an open notebook for questions, small experiments, and discoveries along the way.",
+            "isNotice": false
+          },
+          {
+            "sortKey": 40,
+            "isActive": true,
+            "id": "",
+            "heading": "On the curiosity list",
+            "text": "",
+            "isNotice": false
+          },
+          {
+            "sortKey": 50,
+            "isActive": true,
+            "id": "",
+            "heading": "",
+            "text": "How do plants and hardscape shape a sense of scale? What makes an underwater scene feel natural? How does a small world change as it matures?",
+            "isNotice": false
+          }
+        ],
+        "link": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "Visit the notebook ↗",
+          "url": "/musings"
+        }
+      }
+    },
+    {
+      "path": "/topics/faith",
+      "data": {
+        "sortKey": 50,
+        "isActive": true,
+        "id": "faith",
+        "pageTitle": "Still on the Potter’s Wheel",
+        "eyebrow": "05 / FAITH & GRACE",
+        "headingLines": [
+          {
+            "sortKey": 10,
+            "isActive": true,
+            "text": "Still on the"
+          },
+          {
+            "sortKey": 20,
+            "isActive": true,
+            "text": "Potter’s Wheel"
+          }
+        ],
+        "intro": "A life of faith, still being shaped by grace.",
+        "card": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "Still on the Potter’s Wheel",
+          "description": "A life of faith, still being shaped by grace.",
+          "category": "05 / FAITH & GRACE",
+          "link": {
+            "sortKey": 10,
+            "isActive": true,
+            "label": "Still on the Potter’s Wheel",
+            "url": "/faith"
+          },
+          "image": {
+            "sortKey": 10,
+            "isActive": true,
+            "url": "/faith-photo.jpg",
+            "alt": "A potter’s hands gently shaping clay on a wheel"
+          }
+        },
+        "image": {
+          "sortKey": 10,
+          "isActive": true,
+          "url": "/faith-photo.jpg",
+          "alt": "A potter’s hands gently shaping clay on a wheel"
+        },
+        "backLink": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "← All interests",
+          "url": "/interests"
+        },
+        "children": [
+          {
+            "sortKey": 10,
+            "isActive": true,
+            "id": "",
+            "heading": "Still being shaped.",
+            "text": "",
+            "isNotice": false
+          },
+          {
+            "sortKey": 20,
+            "isActive": true,
+            "id": "",
+            "heading": "",
+            "text": "A space for reflections on faith, grace, and the ongoing work of becoming.",
+            "isNotice": false
+          },
+          {
+            "sortKey": 30,
+            "isActive": true,
+            "id": "",
+            "heading": "",
+            "text": "Personal reflections will be added here. This page is a placeholder for the mockup.",
+            "isNotice": true
+          }
+        ],
+        "link": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "Visit the notebook ↗",
+          "url": "/musings"
+        }
+      }
+    },
+    {
+      "path": "/musings/musing-ai",
+      "data": {
+        "sortKey": 10,
+        "isActive": true,
+        "id": "musing-ai",
+        "pageTitle": "The interesting part is still the question",
+        "eyebrow": "AI & SOFTWARE / SAMPLE NOTE",
+        "headingLines": [
+          {
+            "sortKey": 10,
+            "isActive": true,
+            "text": "The interesting part is still the question."
+          }
+        ],
+        "intro": "A reflection on curiosity, judgment, and building with new tools.",
+        "card": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "The interesting part is still the question",
+          "description": "A reflection on curiosity, judgment, and building with new tools.",
+          "category": "AI & SOFTWARE",
+          "status": "SAMPLE NOTE",
+          "link": {
+            "sortKey": 10,
+            "isActive": true,
+            "label": "The interesting part is still the question",
+            "url": "/musing-ai"
+          }
+        },
+        "backLink": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "← The notebook",
+          "url": "/musings"
+        },
+        "children": [
+          {
+            "sortKey": 10,
+            "isActive": true,
+            "id": "",
+            "heading": "",
+            "text": "Sample editorial copy for this mockup, not a personal claim or published essay.",
+            "isNotice": true
+          },
+          {
+            "sortKey": 20,
+            "isActive": true,
+            "id": "",
+            "heading": "",
+            "text": "There’s something compelling about an experiment with an uncertain outcome. You begin with a question, make a small change, and pay attention to what happens next.",
+            "isNotice": false
+          },
+          {
+            "sortKey": 30,
+            "isActive": true,
+            "id": "",
+            "heading": "",
+            "text": "The most useful part may be the observation itself: noticing what you assumed, what surprised you, and what deserves a second look.",
+            "isNotice": false
+          },
+          {
+            "sortKey": 40,
+            "isActive": true,
+            "id": "",
+            "heading": "A question to carry forward",
+            "text": "",
+            "isNotice": false
+          },
+          {
+            "sortKey": 50,
+            "isActive": true,
+            "id": "",
+            "heading": "",
+            "text": "What would change if the next step were simply to look more closely?",
+            "isNotice": false
+          }
+        ],
+        "link": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "Explore this interest ↗",
+          "url": "/ai"
+        }
+      }
+    },
+    {
+      "path": "/musings/musing-hydroponics",
+      "data": {
+        "sortKey": 20,
+        "isActive": true,
+        "id": "musing-hydroponics",
+        "pageTitle": "A little less control, a little more observation",
+        "eyebrow": "GROWING / SAMPLE NOTE",
+        "headingLines": [
+          {
+            "sortKey": 10,
+            "isActive": true,
+            "text": "A little less control, a little more observation."
+          }
+        ],
+        "intro": "What a small growing system might teach us about paying attention.",
+        "card": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "A little less control, a little more observation",
+          "description": "What a small growing system might teach us about paying attention.",
+          "category": "GROWING",
+          "status": "SAMPLE NOTE",
+          "link": {
+            "sortKey": 10,
+            "isActive": true,
+            "label": "A little less control, a little more observation",
+            "url": "/musing-hydroponics"
+          }
+        },
+        "backLink": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "← The notebook",
+          "url": "/musings"
+        },
+        "children": [
+          {
+            "sortKey": 10,
+            "isActive": true,
+            "id": "",
+            "heading": "",
+            "text": "Sample editorial copy for this mockup, not a personal claim or published essay.",
+            "isNotice": true
+          },
+          {
+            "sortKey": 20,
+            "isActive": true,
+            "id": "",
+            "heading": "",
+            "text": "There’s something compelling about an experiment with an uncertain outcome. You begin with a question, make a small change, and pay attention to what happens next.",
+            "isNotice": false
+          },
+          {
+            "sortKey": 30,
+            "isActive": true,
+            "id": "",
+            "heading": "",
+            "text": "The most useful part may be the observation itself: noticing what you assumed, what surprised you, and what deserves a second look.",
+            "isNotice": false
+          },
+          {
+            "sortKey": 40,
+            "isActive": true,
+            "id": "",
+            "heading": "A question to carry forward",
+            "text": "",
+            "isNotice": false
+          },
+          {
+            "sortKey": 50,
+            "isActive": true,
+            "id": "",
+            "heading": "",
+            "text": "What would change if the next step were simply to look more closely?",
+            "isNotice": false
+          }
+        ],
+        "link": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "Explore this interest ↗",
+          "url": "/hydroponics"
+        }
+      }
+    },
+    {
+      "path": "/musings/musing-aquascapes",
+      "data": {
+        "sortKey": 30,
+        "isActive": true,
+        "id": "musing-aquascapes",
+        "pageTitle": "Making room for slow things",
+        "eyebrow": "AQUASCAPES / SAMPLE NOTE",
+        "headingLines": [
+          {
+            "sortKey": 10,
+            "isActive": true,
+            "text": "Making room for slow things."
+          }
+        ],
+        "intro": "A few thoughts on patience, planted tanks, and everyday rhythms.",
+        "card": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "Making room for slow things",
+          "description": "A few thoughts on patience, planted tanks, and everyday rhythms.",
+          "category": "AQUASCAPES",
+          "status": "SAMPLE NOTE",
+          "link": {
+            "sortKey": 10,
+            "isActive": true,
+            "label": "Making room for slow things",
+            "url": "/musing-aquascapes"
+          }
+        },
+        "backLink": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "← The notebook",
+          "url": "/musings"
+        },
+        "children": [
+          {
+            "sortKey": 10,
+            "isActive": true,
+            "id": "",
+            "heading": "",
+            "text": "Sample editorial copy for this mockup, not a personal claim or published essay.",
+            "isNotice": true
+          },
+          {
+            "sortKey": 20,
+            "isActive": true,
+            "id": "",
+            "heading": "",
+            "text": "There’s something compelling about an experiment with an uncertain outcome. You begin with a question, make a small change, and pay attention to what happens next.",
+            "isNotice": false
+          },
+          {
+            "sortKey": 30,
+            "isActive": true,
+            "id": "",
+            "heading": "",
+            "text": "The most useful part may be the observation itself: noticing what you assumed, what surprised you, and what deserves a second look.",
+            "isNotice": false
+          },
+          {
+            "sortKey": 40,
+            "isActive": true,
+            "id": "",
+            "heading": "A question to carry forward",
+            "text": "",
+            "isNotice": false
+          },
+          {
+            "sortKey": 50,
+            "isActive": true,
+            "id": "",
+            "heading": "",
+            "text": "What would change if the next step were simply to look more closely?",
+            "isNotice": false
+          }
+        ],
+        "link": {
+          "sortKey": 10,
+          "isActive": true,
+          "label": "Explore this interest ↗",
+          "url": "/aquascapes"
+        }
+      }
+    }
+  ]
+}

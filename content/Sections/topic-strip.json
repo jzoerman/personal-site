@@ -1,0 +1,22 @@
+{
+  "sortKey": 20,
+  "isActive": true,
+  "id": "topic-strip",
+  "children": [
+    {
+      "sortKey": 10,
+      "isActive": true,
+      "text": "A FEW CONNECTED INTERESTS"
+    },
+    {
+      "sortKey": 20,
+      "isActive": true,
+      "text": "CODE / ENERGY / GROWING / SMALL WORLDS / FAITH"
+    },
+    {
+      "sortKey": 30,
+      "isActive": true,
+      "text": "SCROLL TO EXPLORE ↓"
+    }
+  ]
+}

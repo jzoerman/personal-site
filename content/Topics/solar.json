@@ -1,0 +1,94 @@
+{
+  "sortKey": 20,
+  "isActive": true,
+  "id": "solar",
+  "pageTitle": "A little more sun-powered",
+  "eyebrow": "02 / ENERGY",
+  "headingLines": [
+    {
+      "sortKey": 10,
+      "isActive": true,
+      "text": "A little more sun-powered."
+    }
+  ],
+  "intro": "An open notebook for DIY solar, small systems, and learning by making.",
+  "card": {
+    "sortKey": 10,
+    "isActive": true,
+    "label": "A little more sun-powered",
+    "description": "An open notebook for DIY solar, small systems, and learning by making.",
+    "category": "02 / ENERGY",
+    "link": {
+      "sortKey": 10,
+      "isActive": true,
+      "label": "A little more sun-powered",
+      "url": "/solar"
+    },
+    "image": {
+      "sortKey": 10,
+      "isActive": true,
+      "url": "/solar-photo.jpg",
+      "alt": "Rows of blue solar panels beneath a cloud-filled sky"
+    }
+  },
+  "image": {
+    "sortKey": 10,
+    "isActive": true,
+    "url": "/solar-photo.jpg",
+    "alt": "Rows of blue solar panels beneath a cloud-filled sky"
+  },
+  "backLink": {
+    "sortKey": 10,
+    "isActive": true,
+    "label": "← All interests",
+    "url": "/interests"
+  },
+  "children": [
+    {
+      "sortKey": 10,
+      "isActive": true,
+      "id": "",
+      "heading": "",
+      "text": "Illustrative placeholder content for this personal website mockup.",
+      "isNotice": true
+    },
+    {
+      "sortKey": 20,
+      "isActive": true,
+      "id": "",
+      "heading": "From sunlight to something useful.",
+      "text": "",
+      "isNotice": false
+    },
+    {
+      "sortKey": 30,
+      "isActive": true,
+      "id": "",
+      "heading": "",
+      "text": "Start small. Follow the sunlight. This space is an open notebook for questions, small experiments, and discoveries along the way.",
+      "isNotice": false
+    },
+    {
+      "sortKey": 40,
+      "isActive": true,
+      "id": "",
+      "heading": "On the curiosity list",
+      "text": "",
+      "isNotice": false
+    },
+    {
+      "sortKey": 50,
+      "isActive": true,
+      "id": "",
+      "heading": "",
+      "text": "What could a modest solar setup power? How can a system be easier to understand? What can be learned by measuring sunlight and energy over time?",
+      "isNotice": false
+    }
+  ],
+  "link": {
+    "sortKey": 10,
+    "isActive": true,
+    "label": "Visit the notebook ↗",
+    "url": "/musings"
+  }
+}

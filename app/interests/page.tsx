@@ -1,33 +1,24 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import { notFound } from "next/navigation";
+import { page } from "../../lib/content";
+import { active } from "../../lib/order";
+import { PageHead } from "../../components/Content";
 import { TopicGrid } from "../../components/TopicGrid";
 
-export const metadata: Metadata = { title: "Interests" };
-
-export default function Page() {
+export async function generateMetadata(): Promise<Metadata> {
+  const content = await page("interests");
+  return { title: active(content) ? content.pageTitle : "Page not found" };
+}
+export default async function Page() {
+  const content = await page("interests");
+  if (!active(content)) notFound();
   return (
     <>
-      {" "}
-      <section className="page-head">
-        <div className="eyebrow">Five threads, plenty of possibilities</div>
-        <h1>
-          Things worth
-          <br />
-          getting curious about.
-        </h1>
-        <p className="intro">
-          From new software tools to tiny living systems, with faith woven
-          through everyday life. A collection of interests with plenty of room
-          to evolve.
-        </p>
-      </section>
+      <PageHead content={content} />
       <section className="section">
         <TopicGrid />
       </section>
-      <p className="notice">
-        Mockup: topic descriptions are placeholders; photography is
-        illustrative.
-      </p>{" "}
+      <p className="notice">{content.notice}</p>
     </>
   );
 }

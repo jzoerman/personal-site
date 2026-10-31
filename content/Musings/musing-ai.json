@@ -1,0 +1,83 @@
+{
+  "sortKey": 10,
+  "isActive": true,
+  "id": "musing-ai",
+  "pageTitle": "The interesting part is still the question",
+  "eyebrow": "AI & SOFTWARE / SAMPLE NOTE",
+  "headingLines": [
+    {
+      "sortKey": 10,
+      "isActive": true,
+      "text": "The interesting part is still the question."
+    }
+  ],
+  "intro": "A reflection on curiosity, judgment, and building with new tools.",
+  "card": {
+    "sortKey": 10,
+    "isActive": true,
+    "label": "The interesting part is still the question",
+    "description": "A reflection on curiosity, judgment, and building with new tools.",
+    "category": "AI & SOFTWARE",
+    "status": "SAMPLE NOTE",
+    "link": {
+      "sortKey": 10,
+      "isActive": true,
+      "label": "The interesting part is still the question",
+      "url": "/musing-ai"
+    }
+  },
+  "backLink": {
+    "sortKey": 10,
+    "isActive": true,
+    "label": "← The notebook",
+    "url": "/musings"
+  },
+  "children": [
+    {
+      "sortKey": 10,
+      "isActive": true,
+      "id": "",
+      "heading": "",
+      "text": "Sample editorial copy for this mockup, not a personal claim or published essay.",
+      "isNotice": true
+    },
+    {
+      "sortKey": 20,
+      "isActive": true,
+      "id": "",
+      "heading": "",
+      "text": "There’s something compelling about an experiment with an uncertain outcome. You begin with a question, make a small change, and pay attention to what happens next.",
+      "isNotice": false
+    },
+    {
+      "sortKey": 30,
+      "isActive": true,
+      "id": "",
+      "heading": "",
+      "text": "The most useful part may be the observation itself: noticing what you assumed, what surprised you, and what deserves a second look.",
+      "isNotice": false
+    },
+    {
+      "sortKey": 40,
+      "isActive": true,
+      "id": "",
+      "heading": "A question to carry forward",
+      "text": "",
+      "isNotice": false
+    },
+    {
+      "sortKey": 50,
+      "isActive": true,
+      "id": "",
+      "heading": "",
+      "text": "What would change if the next step were simply to look more closely?",
+      "isNotice": false
+    }
+  ],
+  "link": {
+    "sortKey": 10,
+    "isActive": true,
+    "label": "Explore this interest ↗",
+    "url": "/ai"
+  }
+}

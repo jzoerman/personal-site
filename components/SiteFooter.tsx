@@ -1,12 +1,16 @@
-import Link from "next/link";
+import { active, ordered } from "../lib/order";
+import type { FooterContent } from "../lib/models";
+import { ContentLinkView } from "./Content";
 
-export function SiteFooter() {
+export function SiteFooter({ content }: { content: FooterContent }) {
+  if (!active(content)) return null;
   return (
     <footer>
-      <span>© 2026 Jeremy Zoerman · A curious work in progress.</span>
+      <span>{content.copyright}</span>
       <div>
-        <Link href="/elsewhere">Say hello ↗</Link>
-        <Link href="/elsewhere#professional">The professional side ↗</Link>
+        {ordered(content.children).map((item, index) => (
+          <ContentLinkView key={index} item={item} className="" />
+        ))}
       </div>
     </footer>
   );

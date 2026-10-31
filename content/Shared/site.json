@@ -1,0 +1,14 @@
+{
+  "sortKey": 10,
+  "isActive": true,
+  "id": "site",
+  "title": "Jeremy Zoerman",
+  "description": "Jeremy Zoerman’s personal corner of the web: software in the AI era, DIY solar, hydroponics, aquascapes, faith, and musings.",
+  "skipLabel": "Skip to content",
+  "favicon": {
+    "sortKey": 10,
+    "isActive": true,
+    "url": "/favicon.svg",
+    "alt": "JZ"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "sortKey": 40,
+  "isActive": true,
+  "id": "notebook",
+  "eyebrow": "The open notebook",
+  "heading": "A few musings.",
+  "intro": "Ideas in progress. Things noticed.\nQuestions worth sitting with.",
+  "link": {
+    "sortKey": 10,
+    "isActive": true,
+    "label": "Browse the notebook ↗",
+    "url": "/musings"
+  }
+}

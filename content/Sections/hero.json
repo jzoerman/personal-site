@@ -1,0 +1,98 @@
+{
+  "sortKey": 10,
+  "isActive": true,
+  "id": "hero",
+  "eyebrow": "THE PERSONAL SIDE / JEREMY ZOERMAN",
+  "headingLines": [
+    {
+      "sortKey": 10,
+      "isActive": true,
+      "text": "Good questions."
+    },
+    {
+      "sortKey": 20,
+      "isActive": true,
+      "text": "Interesting"
+    },
+    {
+      "sortKey": 30,
+      "isActive": true,
+      "text": "possibilities."
+    }
+  ],
+  "intro": "A personal space for the things that spark my curiosity. Software, sunlight, growing systems, a life of faith, and the occasional thought worth following.",
+  "primaryLink": {
+    "sortKey": 10,
+    "isActive": true,
+    "label": "Follow the curiosity ↗",
+    "url": "/interests"
+  },
+  "secondaryLink": {
+    "sortKey": 10,
+    "isActive": true,
+    "label": "Open the notebook →",
+    "url": "/musings"
+  },
+  "status": "ALWAYS A WORK IN PROGRESS",
+  "orbital": {
+    "sortKey": 10,
+    "isActive": true,
+    "image": {
+      "sortKey": 10,
+      "isActive": true,
+      "url": "/orbit.svg",
+      "alt": "Wireframe globe with intersecting orbits, representing connected interests"
+    },
+    "topLabels": [
+      {
+        "sortKey": 10,
+        "isActive": true,
+        "text": "JZ / EXPLORATIONS"
+      },
+      {
+        "sortKey": 20,
+        "isActive": true,
+        "text": "PERSONAL SYSTEMS — 01"
+      }
+    ],
+    "bottomLabels": [
+      {
+        "sortKey": 10,
+        "isActive": true,
+        "text": "+ IDEAS → POSSIBILITIES"
+      },
+      {
+        "sortKey": 20,
+        "isActive": true,
+        "text": "∞ / STILL EXPLORING"
+      }
+    ],
+    "children": [
+      {
+        "sortKey": 10,
+        "isActive": true,
+        "text": "01 / SOFTWARE & AI"
+      },
+      {
+        "sortKey": 20,
+        "isActive": true,
+        "text": "02 / DIY SOLAR"
+      },
+      {
+        "sortKey": 30,
+        "isActive": true,
+        "text": "03 / HYDROPONICS"
+      },
+      {
+        "sortKey": 40,
+        "isActive": true,
+        "text": "04 / AQUASCAPES"
+      },
+      {
+        "sortKey": 50,
+        "isActive": true,
+        "text": "05 / FAITH & GRACE"
+      }
+    ]
+  }
+}

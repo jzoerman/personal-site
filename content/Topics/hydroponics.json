@@ -1,0 +1,94 @@
+{
+  "sortKey": 30,
+  "isActive": true,
+  "id": "hydroponics",
+  "pageTitle": "Roots, water, repeat",
+  "eyebrow": "03 / GROWING",
+  "headingLines": [
+    {
+      "sortKey": 10,
+      "isActive": true,
+      "text": "Roots, water, repeat."
+    }
+  ],
+  "intro": "A space for hydroponic experiments and the quiet satisfaction of watching things grow.",
+  "card": {
+    "sortKey": 10,
+    "isActive": true,
+    "label": "Roots, water, repeat",
+    "description": "A space for hydroponic experiments and the quiet satisfaction of watching things grow.",
+    "category": "03 / GROWING",
+    "link": {
+      "sortKey": 10,
+      "isActive": true,
+      "label": "Roots, water, repeat",
+      "url": "/hydroponics"
+    },
+    "image": {
+      "sortKey": 10,
+      "isActive": true,
+      "url": "/hydroponics-photo.jpg",
+      "alt": "Bright green lettuce growing in white hydroponic channels"
+    }
+  },
+  "image": {
+    "sortKey": 10,
+    "isActive": true,
+    "url": "/hydroponics-photo.jpg",
+    "alt": "Bright green lettuce growing in white hydroponic channels"
+  },
+  "backLink": {
+    "sortKey": 10,
+    "isActive": true,
+    "label": "← All interests",
+    "url": "/interests"
+  },
+  "children": [
+    {
+      "sortKey": 10,
+      "isActive": true,
+      "id": "",
+      "heading": "",
+      "text": "Illustrative placeholder content for this personal website mockup.",
+      "isNotice": true
+    },
+    {
+      "sortKey": 20,
+      "isActive": true,
+      "id": "",
+      "heading": "Growing things. Learning things.",
+      "text": "",
+      "isNotice": false
+    },
+    {
+      "sortKey": 30,
+      "isActive": true,
+      "id": "",
+      "heading": "",
+      "text": "A tiny garden with a lot to teach. This space is an open notebook for questions, small experiments, and discoveries along the way.",
+      "isNotice": false
+    },
+    {
+      "sortKey": 40,
+      "isActive": true,
+      "id": "",
+      "heading": "On the curiosity list",
+      "text": "",
+      "isNotice": false
+    },
+    {
+      "sortKey": 50,
+      "isActive": true,
+      "id": "",
+      "heading": "",
+      "text": "How do light, water, and nutrients shape a growing system? What changes when you observe a plant closely? Where is the balance between tinkering and letting things grow?",
+      "isNotice": false
+    }
+  ],
+  "link": {
+    "sortKey": 10,
+    "isActive": true,
+    "label": "Visit the notebook ↗",
+    "url": "/musings"
+  }
+}

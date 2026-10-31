@@ -1,0 +1,26 @@
+{
+  "sortKey": 10,
+  "isActive": true,
+  "id": "not-found",
+  "pageTitle": "Page not found",
+  "eyebrow": "404 / A loose thread",
+  "headingLines": [
+    {
+      "sortKey": 10,
+      "isActive": true,
+      "text": "This page is"
+    },
+    {
+      "sortKey": 20,
+      "isActive": true,
+      "text": "still unexplored."
+    }
+  ],
+  "intro": "The page you’re looking for could not be found.",
+  "link": {
+    "sortKey": 10,
+    "isActive": true,
+    "label": "Back to the personal side ↗",
+    "url": "/"
+  }
+}

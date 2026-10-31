@@ -1,30 +1,23 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+import { page } from "../../lib/content";
+import { active } from "../../lib/order";
+import { PageHead } from "../../components/Content";
 import { NotebookEntries } from "../../components/NotebookEntries";
 
-export const metadata: Metadata = { title: "Musings" };
-
-export default function Page() {
+export async function generateMetadata(): Promise<Metadata> {
+  const content = await page("musings");
+  return { title: active(content) ? content.pageTitle : "Page not found" };
+}
+export default async function Page() {
+  const content = await page("musings");
+  if (!active(content)) notFound();
   return (
     <>
-      {" "}
-      <section className="page-head">
-        <div className="eyebrow">The open notebook</div>
-        <h1>
-          Thinking out loud.
-          <br />
-          Leaving room to change.
-        </h1>
-        <p className="intro">
-          Reflections from the intersection of making, growing, and noticing.
-        </p>
-        <p className="notice">
-          These sample notes demonstrate the layout. They are not Jeremy’s
-          published writing.
-        </p>
-      </section>
+      <PageHead content={content} />
       <section className="section">
         <NotebookEntries />
-      </section>{" "}
+      </section>
     </>
   );
 }

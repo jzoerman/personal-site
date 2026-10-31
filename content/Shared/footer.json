@@ -1,0 +1,20 @@
+{
+  "sortKey": 10,
+  "isActive": true,
+  "id": "footer",
+  "copyright": "© 2026 Jeremy Zoerman · A curious work in progress.",
+  "children": [
+    {
+      "sortKey": 10,
+      "isActive": true,
+      "label": "Say hello ↗",
+      "url": "/elsewhere"
+    },
+    {
+      "sortKey": 20,
+      "isActive": true,
+      "label": "The professional side ↗",
+      "url": "/elsewhere#professional"
+    }
+  ]
+}
