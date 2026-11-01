@@ -65,7 +65,7 @@ test("inactive detail images, paragraph children, and links stay hidden", async 
     /topic-banner|Visit the notebook|Still being shaped\.<\/h2>/,
   );
   assert.match(html, /A life of faith, still being shaped by grace/);
-  assert.match(html, /placeholder for the mockup/);
+  assert.match(html, /thoughts taking shape/);
   assert.match(html, /href="\/interests"/);
 });
 

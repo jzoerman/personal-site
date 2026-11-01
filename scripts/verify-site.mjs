@@ -99,7 +99,7 @@ for (const route of routes) {
   if (route.startsWith("/musing-"))
     assert.match(
       html,
-      /Sample editorial copy/,
+      /Sample reflection/,
       "Sample writing must stay labeled",
     );
   if (route === "/faith")

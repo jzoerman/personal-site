@@ -2,7 +2,7 @@
   "format": "leafplus-project",
   "formatVersion": 1,
   "sourceProject": "JeremyZoerman.com",
-  "exportedAt": "2026-10-31T23:37:28.328Z",
+  "exportedAt": "2026-11-01T00:16:20.215Z",
   "documents": [
     {
       "path": "/home",
@@ -34,7 +34,7 @@
           }
         ],
         "intro": "From new software tools to tiny living systems, with faith woven through everyday life. A collection of interests with plenty of room to evolve.",
-        "notice": "Mockup: topic descriptions are placeholders; photography is illustrative."
+        "notice": "A few interests taking shape. Images set the scene."
       }
     },
     {
@@ -58,7 +58,7 @@
           }
         ],
         "intro": "Reflections from the intersection of making, growing, and noticing.",
-        "notice": "These sample notes demonstrate the layout. They are not Jeremy’s published writing."
+        "notice": "Sample reflections from an open notebook, with room for ideas to grow."
       }
     },
     {
@@ -73,21 +73,21 @@
           {
             "sortKey": 10,
             "isActive": true,
-            "text": "A few other"
+            "text": "Same curiosity."
           },
           {
             "sortKey": 20,
             "isActive": true,
-            "text": "places to find me."
+            "text": "A different focus."
           }
         ],
-        "intro": "A home for the connections between my personal and professional worlds.",
+        "intro": "This is my personal corner of the web. For the work I do, the software I build, and the ideas behind it, there’s a professional side, too.",
         "children": [
           {
             "sortKey": 10,
             "isActive": true,
             "id": "",
-            "heading": "Say hello",
+            "heading": "The personal side",
             "text": "",
             "isNotice": false
           },
@@ -96,7 +96,7 @@
             "isActive": true,
             "id": "",
             "heading": "",
-            "text": "Contact and social links will live here.",
+            "text": "Here on my .com site, I’m following the things that spark my curiosity: software in an AI era, DIY solar, hydroponics, aquascapes, and a life of faith.",
             "isNotice": false
           },
           {
@@ -104,8 +104,8 @@
             "isActive": true,
             "id": "",
             "heading": "",
-            "text": "Placeholder · Email and social profiles have not been added yet.",
-            "isNotice": true
+            "text": "It’s a place for experiments, observations, and reflections as things take shape. There’s always another question to follow.",
+            "isNotice": false
           },
           {
             "sortKey": 40,
@@ -120,7 +120,7 @@
             "isActive": true,
             "id": "",
             "heading": "",
-            "text": "A separate .dev site will focus on experience, case studies, technical writing, and professional projects.",
+            "text": "JeremyZoerman.dev is home to my software engineering work: my background, projects, and writing about building useful software.",
             "isNotice": false
           },
           {
@@ -128,15 +128,15 @@
             "isActive": true,
             "id": "",
             "heading": "",
-            "text": "Coming later · The professional domain is a placeholder.",
-            "isNotice": true
+            "text": "If you’re looking for what I do professionally, what I’m building, or how I approach engineering, that’s the place to start.",
+            "isNotice": false
           }
         ],
         "link": {
           "sortKey": 10,
           "isActive": true,
-          "label": "Back to this little corner ↗",
-          "url": "/"
+          "label": "Visit JeremyZoerman.dev ↗",
+          "url": "https://JeremyZoerman.dev"
         }
       }
     },
@@ -233,7 +233,7 @@
             "sortKey": 20,
             "isActive": true,
             "label": "The professional side ↗",
-            "url": "/elsewhere#professional"
+            "url": "/elsewhere#professional111"
           }
         ]
       }
@@ -495,7 +495,7 @@
             "isActive": true,
             "id": "",
             "heading": "",
-            "text": "Illustrative placeholder content for this personal website mockup.",
+            "text": "An open notebook, with more to explore.",
             "isNotice": true
           },
           {
@@ -592,7 +592,7 @@
             "isActive": true,
             "id": "",
             "heading": "",
-            "text": "Illustrative placeholder content for this personal website mockup.",
+            "text": "An open notebook, with more to explore.",
             "isNotice": true
           },
           {
@@ -689,7 +689,7 @@
             "isActive": true,
             "id": "",
             "heading": "",
-            "text": "Illustrative placeholder content for this personal website mockup.",
+            "text": "An open notebook, with more to explore.",
             "isNotice": true
           },
           {
@@ -786,7 +786,7 @@
             "isActive": true,
             "id": "",
             "heading": "",
-            "text": "Illustrative placeholder content for this personal website mockup.",
+            "text": "An open notebook, with more to explore.",
             "isNotice": true
           },
           {
@@ -904,7 +904,7 @@
             "isActive": true,
             "id": "",
             "heading": "",
-            "text": "Personal reflections will be added here. This page is a placeholder for the mockup.",
+            "text": "A few thoughts taking shape, with room for more along the way.",
             "isNotice": true
           }
         ],
@@ -958,7 +958,7 @@
             "isActive": true,
             "id": "",
             "heading": "",
-            "text": "Sample editorial copy for this mockup, not a personal claim or published essay.",
+            "text": "Sample reflection from an open notebook. These ideas are still taking shape.",
             "isNotice": true
           },
           {
@@ -1044,7 +1044,7 @@
             "isActive": true,
             "id": "",
             "heading": "",
-            "text": "Sample editorial copy for this mockup, not a personal claim or published essay.",
+            "text": "Sample reflection from an open notebook. These ideas are still taking shape.",
             "isNotice": true
           },
           {
@@ -1130,7 +1130,7 @@
             "isActive": true,
             "id": "",
             "heading": "",
-            "text": "Sample editorial copy for this mockup, not a personal claim or published essay.",
+            "text": "Sample reflection from an open notebook. These ideas are still taking shape.",
             "isNotice": true
           },
           {

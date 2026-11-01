@@ -8,21 +8,21 @@
     {
       "sortKey": 10,
       "isActive": true,
-      "text": "A few other"
+      "text": "Same curiosity."
     },
     {
       "sortKey": 20,
       "isActive": true,
-      "text": "places to find me."
+      "text": "A different focus."
     }
   ],
-  "intro": "A home for the connections between my personal and professional worlds.",
+  "intro": "This is my personal corner of the web. For the work I do, the software I build, and the ideas behind it, there’s a professional side, too.",
   "children": [
     {
       "sortKey": 10,
       "isActive": true,
       "id": "",
-      "heading": "Say hello",
+      "heading": "The personal side",
       "text": "",
       "isNotice": false
     },
@@ -31,7 +31,7 @@
       "isActive": true,
       "id": "",
       "heading": "",
-      "text": "Contact and social links will live here.",
+      "text": "Here on my .com site, I’m following the things that spark my curiosity: software in an AI era, DIY solar, hydroponics, aquascapes, and a life of faith.",
       "isNotice": false
     },
     {
@@ -39,8 +39,8 @@
       "isActive": true,
       "id": "",
       "heading": "",
-      "text": "Placeholder · Email and social profiles have not been added yet.",
-      "isNotice": true
+      "text": "It’s a place for experiments, observations, and reflections as things take shape. There’s always another question to follow.",
+      "isNotice": false
     },
     {
       "sortKey": 40,
@@ -55,7 +55,7 @@
       "isActive": true,
       "id": "",
       "heading": "",
-      "text": "A separate .dev site will focus on experience, case studies, technical writing, and professional projects.",
+      "text": "JeremyZoerman.dev is home to my software engineering work: my background, projects, and writing about building useful software.",
       "isNotice": false
     },
     {
@@ -63,14 +63,14 @@
       "isActive": true,
       "id": "",
       "heading": "",
-      "text": "Coming later · The professional domain is a placeholder.",
-      "isNotice": true
+      "text": "If you’re looking for what I do professionally, what I’m building, or how I approach engineering, that’s the place to start.",
+      "isNotice": false
     }
   ],
   "link": {
     "sortKey": 10,
     "isActive": true,
-    "label": "Back to this little corner ↗",
-    "url": "/"
+    "label": "Visit JeremyZoerman.dev ↗",
+    "url": "https://JeremyZoerman.dev"
   }
 }
