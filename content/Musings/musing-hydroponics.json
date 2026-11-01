@@ -3,7 +3,7 @@
   "isActive": true,
   "id": "musing-hydroponics",
   "pageTitle": "A little less control, a little more observation",
-  "eyebrow": "GROWING / SAMPLE NOTE",
+  "eyebrow": "GROWING / OPEN NOTE",
   "headingLines": [
     {
       "sortKey": 10,
@@ -18,7 +18,7 @@
     "label": "A little less control, a little more observation",
     "description": "What a small growing system might teach us about paying attention.",
     "category": "GROWING",
-    "status": "SAMPLE NOTE",
+    "status": "OPEN NOTE",
     "link": {
       "sortKey": 10,
       "isActive": true,
@@ -38,7 +38,7 @@
       "isActive": true,
       "id": "",
       "heading": "",
-      "text": "Sample reflection from an open notebook. These ideas are still taking shape.",
+      "text": "A reflection in progress. These ideas are still taking shape.",
       "isNotice": true
     },
     {

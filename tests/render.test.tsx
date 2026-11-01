@@ -91,7 +91,7 @@ test("rendered topic cards reflect remote ordering, inactive documents, images, 
   assert.doesNotMatch(html, /faith-photo|href="\/ai"|href="\/solar"/);
 });
 
-test("notebook cards honor card activation and display sample labels", async () => {
+test("notebook cards honor card activation and display open-note labels", async () => {
   process.env.LEAFPLUS_ENABLED = "true";
   globalThis.fetch = async (input) => {
     const data = await local(
@@ -102,7 +102,7 @@ test("notebook cards honor card activation and display sample labels", async () 
   };
   const html = renderToStaticMarkup(await NotebookEntries());
   assert.equal((html.match(/class="note"/g) || []).length, 2);
-  assert.match(html, /SAMPLE NOTE/);
+  assert.match(html, /OPEN NOTE/);
   assert.doesNotMatch(html, /href="\/musing-ai"/);
 });
 

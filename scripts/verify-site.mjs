@@ -99,8 +99,8 @@ for (const route of routes) {
   if (route.startsWith("/musing-"))
     assert.match(
       html,
-      /Sample reflection/,
-      "Sample writing must stay labeled",
+      /A reflection in progress/,
+      "Notes must retain their in-progress description",
     );
   if (route === "/faith")
     assert.match(html, /A life of faith, still being shaped by grace/);
@@ -127,5 +127,5 @@ for (const asset of assets) {
 }
 assert.equal((await fetch(new URL("/missing-page", base))).status, 404);
 console.log(
-  `Verified HTTP responses for ${routes.length} pages, legacy redirects, ${assets.size} linked assets, active navigation, sample labels, and 404.`,
+  `Verified HTTP responses for ${routes.length} pages, legacy redirects, ${assets.size} linked assets, active navigation, open-note labels, and 404.`,
 );

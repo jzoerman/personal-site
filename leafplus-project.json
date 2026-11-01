@@ -2,7 +2,7 @@
   "format": "leafplus-project",
   "formatVersion": 1,
   "sourceProject": "JeremyZoerman.com",
-  "exportedAt": "2026-11-01T00:16:20.215Z",
+  "exportedAt": "2026-11-01T00:19:30.540Z",
   "documents": [
     {
       "path": "/home",
@@ -58,7 +58,7 @@
           }
         ],
         "intro": "Reflections from the intersection of making, growing, and noticing.",
-        "notice": "Sample reflections from an open notebook, with room for ideas to grow."
+        "notice": "Reflections from an open notebook, with room for ideas to grow."
       }
     },
     {
@@ -923,7 +923,7 @@
         "isActive": true,
         "id": "musing-ai",
         "pageTitle": "The interesting part is still the question",
-        "eyebrow": "AI & SOFTWARE / SAMPLE NOTE",
+        "eyebrow": "AI & SOFTWARE / OPEN NOTE",
         "headingLines": [
           {
             "sortKey": 10,
@@ -938,7 +938,7 @@
           "label": "The interesting part is still the question",
           "description": "A reflection on curiosity, judgment, and building with new tools.",
           "category": "AI & SOFTWARE",
-          "status": "SAMPLE NOTE",
+          "status": "OPEN NOTE",
           "link": {
             "sortKey": 10,
             "isActive": true,
@@ -958,7 +958,7 @@
             "isActive": true,
             "id": "",
             "heading": "",
-            "text": "Sample reflection from an open notebook. These ideas are still taking shape.",
+            "text": "A reflection in progress. These ideas are still taking shape.",
             "isNotice": true
           },
           {
@@ -1009,7 +1009,7 @@
         "isActive": true,
         "id": "musing-hydroponics",
         "pageTitle": "A little less control, a little more observation",
-        "eyebrow": "GROWING / SAMPLE NOTE",
+        "eyebrow": "GROWING / OPEN NOTE",
         "headingLines": [
           {
             "sortKey": 10,
@@ -1024,7 +1024,7 @@
           "label": "A little less control, a little more observation",
           "description": "What a small growing system might teach us about paying attention.",
           "category": "GROWING",
-          "status": "SAMPLE NOTE",
+          "status": "OPEN NOTE",
           "link": {
             "sortKey": 10,
             "isActive": true,
@@ -1044,7 +1044,7 @@
             "isActive": true,
             "id": "",
             "heading": "",
-            "text": "Sample reflection from an open notebook. These ideas are still taking shape.",
+            "text": "A reflection in progress. These ideas are still taking shape.",
             "isNotice": true
           },
           {
@@ -1095,7 +1095,7 @@
         "isActive": true,
         "id": "musing-aquascapes",
         "pageTitle": "Making room for slow things",
-        "eyebrow": "AQUASCAPES / SAMPLE NOTE",
+        "eyebrow": "AQUASCAPES / OPEN NOTE",
         "headingLines": [
           {
             "sortKey": 10,
@@ -1110,7 +1110,7 @@
           "label": "Making room for slow things",
           "description": "A few thoughts on patience, planted tanks, and everyday rhythms.",
           "category": "AQUASCAPES",
-          "status": "SAMPLE NOTE",
+          "status": "OPEN NOTE",
           "link": {
             "sortKey": 10,
             "isActive": true,
@@ -1130,7 +1130,7 @@
             "isActive": true,
             "id": "",
             "heading": "",
-            "text": "Sample reflection from an open notebook. These ideas are still taking shape.",
+            "text": "A reflection in progress. These ideas are still taking shape.",
             "isNotice": true
           },
           {

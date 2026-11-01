@@ -3,7 +3,7 @@
   "isActive": true,
   "id": "musing-ai",
   "pageTitle": "The interesting part is still the question",
-  "eyebrow": "AI & SOFTWARE / SAMPLE NOTE",
+  "eyebrow": "AI & SOFTWARE / OPEN NOTE",
   "headingLines": [
     {
       "sortKey": 10,
@@ -18,7 +18,7 @@
     "label": "The interesting part is still the question",
     "description": "A reflection on curiosity, judgment, and building with new tools.",
     "category": "AI & SOFTWARE",
-    "status": "SAMPLE NOTE",
+    "status": "OPEN NOTE",
     "link": {
       "sortKey": 10,
       "isActive": true,
@@ -38,7 +38,7 @@
       "isActive": true,
       "id": "",
       "heading": "",
-      "text": "Sample reflection from an open notebook. These ideas are still taking shape.",
+      "text": "A reflection in progress. These ideas are still taking shape.",
       "isNotice": true
     },
     {
