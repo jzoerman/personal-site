@@ -36,7 +36,7 @@ A missing document, timeout, malformed JSON, incompatible shape, or service erro
 | `/topics/{id}`                                       | `content/Topics/*.json`             | Five topic cards and detail pages                                |
 | `/musings/{id}`                                      | `content/Musings/*.json`            | Three notebook cards and sample notes                            |
 
-The five topic IDs are `ai`, `solar`, `hydroponics`, `aquascapes`, and `faith`. Musing IDs are `musing-ai`, `musing-hydroponics`, and `musing-aquascapes`. The current route inventory is deliberately explicit in application code; adding new detail pages requires adding their route and resource registration. CMS links can point to internal pages, HTTPS/HTTP URLs, email, or telephone links. Executable URL schemes are rejected. Text is rendered as React text, never injected HTML.
+The five topic IDs are `ai`, `solar`, `hydroponics`, `aquascapes`, and `faith`. Musing IDs are `musing-ai`, `musing-hydroponics`, and `musing-aquascapes`. The current route inventory is deliberately explicit in application code; adding new detail pages requires adding their route and resource registration. CMS links can point to internal pages, HTTPS/HTTP URLs, email, or telephone links. Qualified domains entered without a scheme (for example `JeremyZoerman.dev`) are normalized to `https://JeremyZoerman.dev` when content is read, including inactive links. This does not modify saved Leaf++ JSON. Executable URL schemes are rejected. Text is rendered as React text, never injected HTML.
 
 ## Ordering and activation
 

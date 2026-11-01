@@ -1,7 +1,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { cache } from "react";
-import { ordered, safeUrl } from "./order";
+import { ordered, safeUrl, normalizeUrl } from "./order";
 import type {
   Document,
   DetailContent,
@@ -25,6 +25,19 @@ const warn = (resource: string, reason: string) => {
     console.warn(message);
   }
 };
+
+function normalizeContentUrls(value: unknown): unknown {
+  if (Array.isArray(value)) return value.map(normalizeContentUrls);
+  if (value === null || typeof value !== "object") return value;
+  return Object.fromEntries(
+    Object.entries(value).map(([key, child]) => [
+      key,
+      key === "url" && typeof child === "string"
+        ? normalizeUrl(child)
+        : normalizeContentUrls(child),
+    ]),
+  );
+}
 
 // A document's own JSON shape is the contract, as in the Leaf++ editor.
 // Every content object must carry explicit metadata. Empty arrays remain valid.
@@ -110,10 +123,12 @@ export async function loadDocument<T extends Document>(
 ): Promise<T> {
   const file = resources[resource];
   if (!file) throw new Error(`Unknown content resource: ${resource}`);
-  const local = JSON.parse(await readFile(path.join(root, file), "utf8"));
+  const local = normalizeContentUrls(
+    JSON.parse(await readFile(path.join(root, file), "utf8")),
+  ) as Record<string, unknown>;
   if (!validTree(local)) throw new Error(`Invalid bundled content: ${file}`);
   if ((process.env.LEAFPLUS_ENABLED ?? "true").toLowerCase() !== "true")
-    return local;
+    return local as unknown as T;
   try {
     const base =
       process.env.LEAFPLUS_BASE_URL ||
@@ -133,7 +148,10 @@ export async function loadDocument<T extends Document>(
       },
     );
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    let data = await response.json();
+    let data = normalizeContentUrls(await response.json()) as Record<
+      string,
+      unknown
+    >;
     // Existing /home is {pageTitle: string}. Explicit, narrowly scoped compatibility:
     // retain that remote title while borrowing only the missing root metadata.
     if (
@@ -148,10 +166,10 @@ export async function loadDocument<T extends Document>(
     }
     if (!validTree(data) || !matchesShape(data, local) || data.id !== local.id)
       throw new Error("invalid content contract");
-    return data;
+    return data as unknown as T;
   } catch (error) {
     warn(resource, error instanceof Error ? error.message : "request failed");
-    return local;
+    return local as unknown as T;
   }
 }
 

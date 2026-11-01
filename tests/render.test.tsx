@@ -8,7 +8,7 @@ import { HomeSection } from "../components/HomeSection";
 import { DetailPage } from "../components/DetailPage";
 import { TopicGrid } from "../components/TopicGrid";
 import { NotebookEntries } from "../components/NotebookEntries";
-import { resources } from "../lib/content";
+import { loadDocument, resources } from "../lib/content";
 
 const originalFetch = globalThis.fetch;
 const initialEnabled = process.env.LEAFPLUS_ENABLED;
@@ -46,6 +46,7 @@ test("inactive sections hide descendants; nested hero image and labels honor act
 test("inactive footer parent and child links do not render; links retain their destinations", async () => {
   const footer = await local("shared/footer");
   footer.children[0].isActive = false;
+  footer.children[1].url = "/elsewhere#professional";
   const html = markup(SiteFooter, { content: footer });
   assert.doesNotMatch(html, /Say hello/);
   assert.match(html, /href="\/elsewhere#professional"/);
@@ -103,4 +104,22 @@ test("notebook cards honor card activation and display sample labels", async () 
   assert.equal((html.match(/class="note"/g) || []).length, 2);
   assert.match(html, /SAMPLE NOTE/);
   assert.doesNotMatch(html, /href="\/musing-ai"/);
+});
+
+test("remote footer with a bare domain stays authoritative and respects activation", async () => {
+  process.env.LEAFPLUS_ENABLED = "true";
+  const footer = await local("shared/footer");
+  footer.copyright = "Remote footer fixture";
+  footer.children[1].url = "JeremyZoerman.dev";
+  footer.children[1].isActive = false;
+  globalThis.fetch = async () => Response.json(footer);
+  let loaded = await loadDocument<any>("shared/footer");
+  assert.equal(loaded.copyright, "Remote footer fixture");
+  let html = markup(SiteFooter, { content: loaded });
+  assert.match(html, /Remote footer fixture/);
+  assert.doesNotMatch(html, /The professional side|professional111/);
+  footer.children[1].isActive = true;
+  loaded = await loadDocument<any>("shared/footer");
+  html = markup(SiteFooter, { content: loaded });
+  assert.match(html, /href="https:\/\/JeremyZoerman.dev"/);
 });

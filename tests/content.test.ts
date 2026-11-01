@@ -1,7 +1,7 @@
 import { test, beforeEach, afterEach } from "node:test";
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
-import { active, ordered } from "../lib/order";
+import { active, ordered, normalizeUrl, safeUrl } from "../lib/order";
 import {
   loadDocument,
   homeSections,
@@ -148,4 +148,29 @@ test("local mode never calls the service and rejects arbitrary filesystem paths"
     () => loadDocument("../../secret"),
     /Unknown content resource/,
   );
+});
+
+test("bare domains normalize to HTTPS while unsafe schemes remain rejected", () => {
+  for (const value of [
+    "JeremyZoerman.dev",
+    "www.example.com/path?q=1#section",
+  ]) {
+    assert.equal(normalizeUrl(value), `https://${value}`);
+    assert.equal(safeUrl(normalizeUrl(value)), true);
+  }
+  for (const value of [
+    "/elsewhere#professional",
+    "https://example.com",
+    "mailto:hello@example.com",
+  ]) {
+    assert.equal(normalizeUrl(value), value);
+  }
+  for (const value of [
+    "javascript:alert(1)",
+    "//example.com",
+    "example.com\\evil",
+    "example.com bad",
+  ]) {
+    assert.equal(safeUrl(normalizeUrl(value)), false);
+  }
 });

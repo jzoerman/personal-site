@@ -19,3 +19,10 @@ export function safeUrl(value: string): boolean {
     ) && !/[\u0000-\u0020\u007f]/.test(value)
   );
 }
+
+// A qualified domain entered without a scheme is an HTTPS destination.
+export function normalizeUrl(value: string): string {
+  const domain =
+    /^(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z]{2,63}(?::[0-9]{1,5})?(?:[/?#][^\\\s]*)?$/i;
+  return domain.test(value) ? `https://${value}` : value;
+}
